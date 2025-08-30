@@ -49,11 +49,7 @@ mkdir -p "$(dirname "$LOG_FILE")"
 
   # --- Config ---
   BASE_URL="https://firefly.social/sitemap"
-  # Required environment variable: API_BASE
-  if [ -z "$API_BASE" ]; then
-    echo "Error: API_BASE environment variable is not set."
-    exit 1
-  fi
+  API_BASE_URL="https://api-dev.firefly.land/v1/recommendation/get_hot_account"
   OUTPUT_DIR="./sitemap"
   MAX_LINKS_PER_FILE=10000
   PROVIDERS=("farcaster" "lens" "twitter")
@@ -67,7 +63,7 @@ mkdir -p "$(dirname "$LOG_FILE")"
     local handles=()
 
     for ((i = 1; i <= 150; i++)); do
-      resp=$(curl -s "$API_BASE?type=$provider&cursor=$i&size=$size")
+      resp=$(curl -s "$API_BASE_URL?type=$provider&cursor=$i&size=$size")
       code=$(echo "$resp" | jq '.code')
 
       if [ "$code" != "0" ]; then
