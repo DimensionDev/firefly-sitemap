@@ -117,7 +117,7 @@ mkdir -p "$(dirname "$LOG_FILE")"
         echo '<?xml version="1.0" encoding="UTF-8"?>'
         echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
         for handle in "${chunk[@]}"; do
-          echo "  <url><loc>https://firefly.social/profile/${sitemap_provider}/${handle}/feed</loc></url>"
+          echo "  <url><loc>https://firefly.social/profile/${sitemap_provider}/${handle}</loc></url>"
         done
         echo '</urlset>'
       } > "$file_path"
