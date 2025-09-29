@@ -1,0 +1,40 @@
+[INFO] 🚀 Starting sitemap generation...
+[INFO] 🔍 Fetching handles for provider: farcaster
+[INFO] Generating farcaster-account XML (150000 handles total)
+[INFO] 📄 Created: ./sitemap/farcaster-account-1.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-2.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-3.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-4.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-5.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-6.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-7.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-8.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-9.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-10.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-11.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-12.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-13.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-14.xml
+[INFO] 📄 Created: ./sitemap/farcaster-account-15.xml
+[INFO] 🔍 Fetching handles for provider: lens
+[INFO] Generating lens-account XML (149895 handles total)
+[INFO] 📄 Created: ./sitemap/lens-account-1.xml
+[INFO] 📄 Created: ./sitemap/lens-account-2.xml
+[INFO] 📄 Created: ./sitemap/lens-account-3.xml
+[INFO] 📄 Created: ./sitemap/lens-account-4.xml
+[INFO] 📄 Created: ./sitemap/lens-account-5.xml
+[INFO] 📄 Created: ./sitemap/lens-account-6.xml
+[INFO] 📄 Created: ./sitemap/lens-account-7.xml
+[INFO] 📄 Created: ./sitemap/lens-account-8.xml
+[INFO] 📄 Created: ./sitemap/lens-account-9.xml
+[INFO] 📄 Created: ./sitemap/lens-account-10.xml
+[INFO] 📄 Created: ./sitemap/lens-account-11.xml
+[INFO] 📄 Created: ./sitemap/lens-account-12.xml
+[INFO] 📄 Created: ./sitemap/lens-account-13.xml
+[INFO] 📄 Created: ./sitemap/lens-account-14.xml
+[INFO] 📄 Created: ./sitemap/lens-account-15.xml
+[INFO] 🔍 Fetching handles for provider: twitter
+[INFO] Generating twitter-account XML (9745 handles total)
+[INFO] 📄 Created: ./sitemap/twitter-account-1.xml
+[SUCCESS] 🌐 Main index.xml generated at ./sitemap/index.xml
+[SUCCESS] 🏁 All sitemaps generated in: ./sitemap
