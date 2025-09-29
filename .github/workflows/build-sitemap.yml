@@ -1,4 +1,4 @@
-name: Build Sitemap Monthly
+name: Build Sitemap
 
 on:
   schedule:
