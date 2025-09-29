@@ -47,7 +47,7 @@ jobs:
         with:
           name: build-sitemap-log
           path: build-sitemap.log
-          retention-days: 30
+          retention-days: 5
 
       - name: Commit and push changes
         run: |
